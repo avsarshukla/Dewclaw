@@ -1,4 +1,4 @@
-import express from 'express';
+ import express from 'express';
 import cors from 'cors';
 import bcrypt from 'bcrypt';
 import jwt from 'jsonwebtoken';
@@ -7,7 +7,7 @@ import path from 'path';
 import fs from 'fs';
 import { db } from './db.js';
 
-const SECRET = 'dev-secret-change-me';
+const SECRET = 'dewclaw-9f3a2b8e4c1d7a6f-keep-this-long-and-random';
 const app = express();
 app.use(cors());
 app.use(express.json());
